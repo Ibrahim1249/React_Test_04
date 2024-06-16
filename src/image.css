@@ -5,6 +5,7 @@
     display: flex;
     gap: 2rem;
     width: 100%;
+    flex-wrap: wrap;
 }
 .left{
     width: 40%;
@@ -28,4 +29,15 @@
     font-family: Reddit Mono , sans-serif;
     font-size: 20px;
 }
-   
+
+@media screen and (max-width:800px) {
+    .container{
+        padding: 1rem;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}

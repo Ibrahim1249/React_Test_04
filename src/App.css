@@ -80,3 +80,39 @@ button {
   font-size: 16px;
   margin-top: 20px;
 }
+
+@media screen and (max-width : 1000px) {
+  .image-container{
+    width: 90%;
+  }
+}
+@media screen and (max-width : 800px) {
+  .image-container{
+    width: 100%;
+   
+  }
+  .image{
+    width: 45%;
+  }
+  nav{
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width : 500px) {
+  .image-container{
+    width: 100%;
+   
+  }
+  nav{
+    padding: 1rem;
+  }
+}
+@media screen and (max-width : 350px) {
+  .image{
+    width: 100%;
+  }
+  .image-container{
+    gap: 0.5rem;
+   
+  }
+}

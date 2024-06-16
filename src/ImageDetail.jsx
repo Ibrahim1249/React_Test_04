@@ -20,8 +20,8 @@ function ImageDetail() {
         </div>
         <div className="right">
           <p><span>Description : </span>{image.alt_description || "No Description"}</p>
-          <p><span>Original Height : </span>{image.width}</p>
-          <p><span>Original Width : </span>{image.height}</p>
+          <p><span>Original Height : </span>{image.width} px</p>
+          <p><span>Original Width : </span>{image.height} px</p>
           <div>
             <a
               href={image.links.download}
